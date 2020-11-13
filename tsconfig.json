@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "skipLibCheck": true,
+        "sourceMap": true,
+        "target": "es2018",
+        "lib": [ "es2018" ],
+        "typeRoots": ["node_modules/@types", "src/definitions/@types"],
+        "outDir": "dist",
+        "forceConsistentCasingInFileNames": true,
+        "pretty": true,
+        "inlineSources": true,
+        "baseUrl": ".",
+        "keyofStringsOnly": true,
+        "resolveJsonModule": true
+    },
+    "exclude": ["dist", "node_modules"],
+    "include": ["**/*", "**/*.json"]
+}
